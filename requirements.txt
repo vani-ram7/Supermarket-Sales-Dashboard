@@ -1,0 +1,21 @@
+# Supermarket Sales Analysis — Python dependencies
+# Install with:  pip install -r requirements.txt
+#
+# Pinned with >= so the notebook runs on the version it was developed against
+# or anything newer. Tested on Python 3.11 and 3.12.
+
+# --- core analysis ---
+pandas>=2.2.0          # data loading, cleaning, grouping and aggregation
+numpy>=1.26.0          # numeric arrays, histogram bin edges
+
+# --- visualisation ---
+matplotlib>=3.8.0      # all charts in the notebook
+seaborn>=0.13.0        # box plot, heatmap and the chart theme
+
+# --- statistics ---
+scipy>=1.11.0          # Welch's t-test on member vs normal spend
+
+# --- notebook environment ---
+notebook>=7.0.0        # Jupyter Notebook interface
+jupyterlab>=4.0.0      # optional: JupyterLab interface
+ipykernel>=6.29.0      # Python kernel used to execute the notebook
